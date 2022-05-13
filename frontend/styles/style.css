@@ -1,0 +1,202 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+div{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 10px;
+}
+h1{
+  color: white;
+  /* font-size: large; */
+}
+/* Хедер */
+header{
+  background-color: rgb(99, 0, 192);
+}
+
+/* Хедер */
+
+.header,
+.footer{
+  max-width: 1340px;
+  border: 3px solid blue;
+  background-color:rgb(64, 145, 34);
+}
+
+a{
+  color: black;
+  margin: 0 auto;
+  padding: 10px;
+  text-decoration: none;
+}
+a:hover{
+   text-decoration:underline;
+   color: white;
+}
+/* Футер */
+footer{
+  background-color: rgb(125, 16, 65);
+}
+/* Футер */
+
+/* Секции */
+section{
+  max-width: 1600px;
+  margin: 0 auto;
+
+  background-color: aqua;
+}
+/* Секция 1 */
+section.first{
+  max-width: 1300px;
+  background-color: rgb(0, 230, 0);
+  padding: 30px;
+}
+.card {
+  display: inline-block;
+  width: 20%;
+  height: auto;
+  box-sizing: border-box;
+  border: 3px solid white;
+  text-align: center;
+  background-color: brown;
+  margin: 10px 30px;
+}
+div b{
+  color:purple;
+}
+
+div.card:nth-child(2n){
+  background-color: rgb(0, 230, 0);
+} 
+
+div.card:hover{
+  background-color: green;
+}
+/* Секция 1 */
+
+/* Секция 2 */
+section.second{
+  max-width: 1300px;
+  background-color: rgb(98, 98, 238);
+  padding: 30px;
+}
+
+.pictures{
+  display: inline-block;
+  border: 3px solid white;
+  padding: 30px;
+  padding-right: 10px;
+}
+
+.pictures:nth-child(2n){
+  padding: 10px;
+  padding-right: 30px;
+}
+
+.pictures:nth-child(2){
+border-color: rgb(118, 0, 229);
+}
+
+.pictures:nth-child(4){
+  border-color: red;
+  }
+/* Секция 2 */
+/* Секция 3 */
+section.third{
+  max-width: 1300px;
+  padding: 30px;
+  background-color: rgb(147, 1, 1);
+}
+p.one::first-letter,
+p.three::first-letter{
+  color: white;
+  font-size: 40px;
+}
+p.two::before{
+  content: 'This is BEFORE element ';
+  color: white;
+}
+
+p.two::after {
+  content: ' This is AFTER element';
+  color: white;
+}
+p.two,
+p.three{
+  color: blueviolet;
+}
+p.one::after,
+p.three::after {
+  content: 'Reprehenderit, quos.';
+  color: black;
+  font-size: small;
+}
+/* Секция 3.1 */
+section.thirdone
+.link {
+  max-width: 1230px;
+
+  font-size: 40px;
+  border: 3px solid white;
+  margin: 0 auto;
+  background-color: rgb(50, 50, 234);
+  text-align: center;
+}
+section.thirdone
+.link:nth-child(2n){
+  font-size:larger;
+}
+section.thirdone div{
+  background-color: rgb(71, 242, 125);
+  color: white;
+}
+section.thirdone div.link:hover{
+  color:green;
+}
+/* Секция 3.1 */
+/* Секция 3.2 */
+section.thirdtwo
+.link {
+  max-width: 1230px;
+
+  font-size: 40px;
+  border: 3px solid white;
+  margin: 0 auto;
+  background-color: aquamarine;
+  text-align: center;
+}
+section.thirdtwo
+.link:nth-child(2n+1){
+  font-size:larger;
+}
+section.thirdtwo div{
+  background-color: rgb(23, 78, 40);
+  color:rgb(147, 9, 160)
+}
+section.thirdtwo div.link:hover{
+  color:black;
+}
+/* Секция 3.2 */
+/* Секция 3 */
+/* Секции */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
